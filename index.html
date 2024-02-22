@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light d-md-none fixed-top">
+    <div class="container">
+      <!-- Navbar content -->
+      <div class="mx-auto "> <!-- Center aligns content -->
+        <form class="form-inline">
+
+        </form>
+      </div>
+      <div class="navbar-icons d-flex"> <!-- Right aligned decorative elements -->
+        <div class="triangle"></div>
+        <div class="circle"></div>
+        <div class="square"></div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-logo" href="#">
+      <img src="images/whole.png" alt="">
+    </a>
+    <div class="mx-auto "> <!-- Center aligns content -->
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="search for your favourite groups in ATG"
+          aria-label="Search">
+
+      </form>
+    </div>
+    <div>
+      
+    </div>
+    
+    <!-- Button trigger modal -->
+<button type="button" class="model-button" data-toggle="modal" data-target="#exampleModalCenter">
+  create account <span class="span-button">it's free<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"/>
+    </svg></span>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-content"  role="document" >
+    <div class="modal-content">
+      <div class="modal-heading">
+        <h5 class="model-title titlemodal" id="exampleModalLongTitle">Let's learn share with our passionfor computer engeneering.Sign up now</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <!----------------------- Main Container -------------------------->
+     <div class="container d-flex justify-content-center align-items-center min-vh-80">
+      <!----------------------- Login Container -------------------------->
+         <div class="row">
+      <!--------------------------- Left Box ----------------------------->
+
+      <div class="col-md-6 right-box">
+          <div class="row align-items-center">
+                <div class="header-text mb-4">
+                     <h2>Create Account</h2>
+                     
+                </div>
+                <div class="d-flex flex-column">
+                <div class="d-flex flex-row mb-0">
+                  <div class="input-group mb-3">
+                      <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="First Name">
+                  </div>
+                  <div class="input-group mb-1">
+                      <input type="password" class="form-control form-control-lg bg-light fs-6 mb-0" placeholder="Last Name">
+                  </div>
+                </div>
+                <div>
+                  <input type="text" class="form-control form-control-lg bg-light fs-6 mt-0" placeholder="Email" >
+                </div>
+
+                <div>
+                  <input type="password" class="form-control form-control-lg bg-light fs-6 mt-0" placeholder="Password" >
+                </div>
+                <div>
+                  <input type="text" class="form-control form-control-lg bg-light fs-6 mt-0" placeholder="Conform Password" >
+                </div>
+              </div>
+              
+                
+                
+
+                <div class="input-group mb-3">
+                  <button class="btn btn-lg btn-light w-100 fs-6"><img src="images/facebook.png" style="width:20px" class="me-2"><small>Sign In with FaceBook</small></button>
+                </div>
+                <div class="input-group mb-3">
+                    <button class="btn btn-lg btn-light w-100 fs-6"><img src="images/google.png" style="width:20px" class="me-2"><small>Sign In with Google</small></button>
+                </div>
+               
+          </div>
+       </div>
+
+
+         <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style=>
+              <div class="d-flex flex-row"> 
+                  <div>
+                  <p>Already have an account</p>
+                  </div>
+                  <div>
+                  <button class="modal-sign-in" id="signIn">sign in</button>
+                  </div>
+              </div>
+             <div class="featured-image mb-3">
+              <img src="images/atg_illustration.png" class="img-fluid" style="width: 250px;">
+             </div>
+             <p class="text-white fs-2" style="font-family: 'Courier New', Courier, monospace; font-weight: 600;">Be Verified</p>
+             <small class="text-white text-wrap text-center" style="width: 17rem;font-family: 'Courier New', Courier, monospace;">Join experienced Designers on this platform.</small>
+             
+             <div>
+              <p class="modal-right-para">By signing up, you agree to our Terms & conditions, Privacy policy</p>
+             </div>
+         </div> 
+      <!-------------------- ------ Right Box ---------------------------->
+          
+          
+        </div>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+    
+     
+    </nav>
+  
+  <div class="banner-section d-flex flex-column  justify-content-end">
+  
+      <div class="d-flex flex-row justify-content-start align-items-center mb-auto p-5 d-md-none">
+        <div>
+          <i class="fa-solid fa-angle-left small-arrow"></i>
+        </div>
+    
+        
+          <div class="ml-auto">
+            <button class="join-button" style="background-color: transparent; font-size: 20px;" onclick="toggleRecommendations()" id="groupsButton">
+              Join Groups
+              <i class="bi bi-people"></i>
+            </button>
+          
+        </div>
+    
+    
+      
+    </div>
+    
+  
+    <div class="banner-container ml-5">
+      <h1 class="banner-heading">Computer Engineering </h1>
+      <p class="banner-description mt3">142,765 Computer Engineers follow this</p>
+
+    </div>
+  </div>
+
+
+
+  <div class="d-md-none p-3">
+    <div class="d-flex flex-row">
+      <div>
+        <ul class="d-flex flex-row">
+          <li class="post-secion-heading-items items-color">posts(368)</li>
+
+        </ul>
+      </div>
+      <div class="ml-auto">
+        <div class="dropdown show mt-3">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Filter All
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+
+
+  <div class="post-section mt-3 p-3 d-none d-md-block">
+    <div class="post-section-heading d-flex flex-row">
+      <div>
+        <ul class="d-flex flex-row">
+          <li class="post-secion-heading-items items-color">All posts(32)</li>
+          <li class="post-secion-heading-items">Articel</li>
+          <li class="post-secion-heading-items">Event</li>
+          <li class="post-secion-heading-items">Education</li>
+          <li class="post-secion-heading-items">Job</li>
+        </ul>
+      </div>
+
+      <div class="d-flex flex-row ml-auto ">
+        <div class="dropdown show mt-3">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Write a post
+          </a>
+
+        </div>
+        <div class="mt-3">
+          <button class="join-button" onclick="toggleRecommendations()" id="groupsButton">
+            Join Groups
+            <i class="bi bi-people"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+   <div class="main-article-container pl-5">
+    <div class="row">
+
+  <div class=" col-12 col-md-9 article-section p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-7 shadow mb-2 ">
+          <div class="">
+            <img src="images/aticle-1.png" alt="" class="article-section-image">
+
+          </div>
+          <div class="atricle-content">
+            <h1 class="article-content-title mt-2">Article</h1>
+            <div class="d-flex flex-row ">
+              <div class="">
+                <h1 class="article-content-heading">What if famous brands had regular fonts? Meet RegulaBrands!</h1>
+              </div>
+
+
+
+            </div>
+
+            <h1 class="article-content-descriptin">I’ve worked in UX for the better part of a decade. From now on, I
+              plan to rei…</h1>
+
+            <div class="d-flex flex-row">
+              
+              <div class="d-flex flex-row">
+                <div>
+                  <img src="images/Rectangle 3 (2).png" alt="">
+                </div>
+                <div class="p-2 m-1">
+                  <h1 class="aticle-image-name">Sathak kumar</h1>
+                </div>
+
+              </div>
+              
+              <div class="d-flex flex-row ml-auto">
+
+                <div class="p-2 m-1">
+                  <i class="fa-solid fa-eye"></i>
+                  views
+                </div>
+                <div class="p-2 m-1">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </div>
+
+              
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="col-12 col-md-7 shadow mb-2 ">
+          <div class="">
+            <img src="images/Rectangle 5 (1).png" alt="" class="article-section-image">
+
+          </div>
+          <div class="atricle-content">
+            <h1 class="article-content-title mt-2">Education</h1>
+            <div class="d-flex flex-row justify-content-between ">
+              <div class="">
+                <h1 class="article-content-heading"> Tax benifis for Investments under National PensionScheme launched by governament </h1>
+              </div>
+
+              <div class="dropdown">
+                <button class="custome-dot-button" dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                    <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                  </svg>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Edit</a>
+                  <a class="dropdown-item" href="#">Report</a>
+                  <a class="dropdown-item" href="#">Option 3 </a>
+                </div>
+              </div>
+
+
+
+            </div>
+
+            <h1 class="article-content-descriptin">I’ve worked in UX for the better part of a decade. From now on, I
+              plan to rei…</h1>
+
+            <div class="d-flex flex-row">
+              
+              <div class="d-flex flex-row">
+                <div>
+                  <img src="images/Rectangle 3 (3).png" alt="">
+                </div>
+                <div class="p-2 m-1">
+                  <h1 class="aticle-image-name">Sarah West</h1>
+                </div>
+
+              </div>
+              
+              <div class="d-flex flex-row ml-auto">
+
+                <div class="p-2 m-1">
+                  <i class="fa-solid fa-eye"></i>
+                  views
+                </div>
+                <div class="p-2 m-1">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </div>
+
+              
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="col-12 col-md-7 shadow mb-2 ">
+          <div class="">
+            <img src="images/Rectangle 5 (2).png" alt="" class="article-section-image">
+
+          </div>
+          <div class="atricle-content">
+            <h1 class="article-content-title mt-2">Meetup</h1>
+            <div class="d-flex flex-row justify-content-between ">
+              <div class="">
+                <h1 class="article-content-heading"> Finance & Investment Elite Social Mixer @Lujiazui </h1>
+              </div>
+
+              <div class="dropdown">
+                <button class="custome-dot-button" dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                    <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                  </svg>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Education</a>
+                  <a class="dropdown-item" href="#">Report</a>
+                  <a class="dropdown-item" href="#">Option 3</a>
+                </div>
+              </div>
+
+
+
+            </div>
+             
+            <div class="d-flex flex-row">
+              <div class="mr-5">
+                <p class="atricle-content-location"><i class="fa-solid fa-calendar-week"></i>Fri,12 Oct, 2018</p>
+              </div>
+              <div>
+                <p class="atricle-content-location"><i class="fa-solid fa-location-dot"></i>Ahemadabad</p>
+              </div>
+
+            </div>
+
+            <div>
+              <button class="article-content-long-button">visit Website</button>
+            </div>
+
+            <div class="d-flex flex-row">
+              
+              <div class="d-flex flex-row">
+                <div>
+                  <img src="images/Rectangle 3 (4).png" alt="">
+                </div>
+                <div class="p-2 m-1">
+                  <h1 class="aticle-image-name">Ronal Jones</h1>
+                </div>
+
+              </div>
+              
+              <div class="d-flex flex-row ml-auto">
+
+                <div class="p-2 m-1">
+                  <i class="fa-solid fa-eye"></i>
+                  views
+                </div>
+                <div class="p-2 m-1">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </div>
+
+              
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="col-12 col-md-7 shadow mb-2 ">
+         
+          <div class="atricle-content">
+            <h1 class="article-content-title mt-2">Job</h1>
+            <div class="d-flex flex-row justify-content-between ">
+              <div class="">
+                <h1 class="article-content-heading"> Software devoloper</h1>
+              </div>
+
+              <div class="dropdown">
+                <button class="custome-dot-button" dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                    <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                  </svg>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Edit</a>
+                  <a class="dropdown-item" href="#">Report</a>
+                  <a class="dropdown-item" href="#">Option 3</a>
+                </div>
+              </div>
+
+
+
+            </div>
+             
+            <div class="d-flex flex-row">
+              <div class="mr-5">
+                <p class="atricle-content-location"><i class="fa-solid fa-bag-shopping"></i>Innvoccer Analytics</p>
+              </div>
+              <div>
+                <p class="atricle-content-location"><i class="fa-solid fa-location-dot"></i>Noida, India </p>
+              </div>
+
+            </div>
+
+            <div>
+              <button class="article-content-long-button long-button-color-2"> Apply on Timesjon</button>
+            </div>
+
+            <div class="d-flex flex-row">
+              
+              <div class="d-flex flex-row">
+                <div>
+                  <img src="images/Rectangle 3 (4).png" alt="">
+                </div>
+                <div class="p-2 m-1">
+                  <h1 class="aticle-image-name">Joseph Grey</h1>
+                </div>
+
+              </div>
+              
+              <div class="d-flex flex-row ml-auto">
+
+                <div class="p-2 m-1">
+                  <i class="fa-solid fa-eye"></i>
+                  views
+                </div>
+                <div class="p-2 m-1">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </div>
+
+              
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+
+
+
+
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class=" col-md-3 show-groups-container pr-5 d-none d-md-block">
+    <div class="=row">
+      <div class="col-12">
+          <div class="d-flex flex-row">
+            <div class="mt-2"><i class="fa-solid fa-location-dot mr-3"></i></div>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Enter location" style="border: none;">
+              <button type="button" class="btn bg-transparent" style="margin-left: -40px; z-index: 100;" >
+                <i class="fa fa-times"></i>
+              </button>
+          </div>
+         
+          
+
+          </div>
+          <div class="horizontal-line"></div>
+
+          <div class="mt-4 d-flex flex-row">
+            <div class="mt-2"><i class="fa-solid fa-circle-info"></i></div>
+            <div class="ml-2"><p class="show-groups-para">your location will help usnserver better and extend a personalised experiences</p>
+            </div>
+          </div>
+
+        <div class="recommended-lists ">
+          <div class="d-flex flex-row ">
+            <div><i class="fa-regular fa-thumbs-up"></i></div>
+            <div><p class="recommended-groups-heding">RECOMMENDED GROUPS</p></div>
+
+
+          </div>
+         
+          <ul class="location-lists" id="locationLists">
+            <!-- <li>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div><img src="images/reco1.jpg" class="recommended-image" alt=""></div>
+                  <div><h1 class="recommended-image-heading">Leisure</h1></div>
+
+                </div>
+
+                <div>
+                  <button class="recommended-image-follow-button">follow</button>
+                </div>
+              </div>
+            </li> -->
+
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+
+   </div>
+
+
+</div>
+</div>
+
+
+
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>

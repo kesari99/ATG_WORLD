@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.navbar-logo{
+    width: 50.99px
+
+    top: 1.37px
+    left: 111.58px
+
+}
+.triangle, .circle, .square {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+.triangle {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #868E96
+  ;
+  }
+  
+.circle {
+    background-color: #868E96
+  ;
+    border-radius: 50%;
+  }
+  
+.square {
+    background-color: #868E96;
+  }
+.banner-section{
+    background-image: url("https://s3-alpha-sig.figma.com/img/756e/302b/7d56a759ac56bc165f65c40094aba4e8?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E3by9vNMc6lKEWdzJ421PRMV-~ycR050iFi~-RpMPnHlOgPxlykMqxnZXvPvovvipyN6fN9xVFMTUagg8YMOtkXYN4XxtCK8-j~8Ln4eztihYnP9gr523yTY1yEqvWRmGR-TCbDh6WXsLDqT08ntzKk0kP1lChoUXAhwkzjx~jjasPzW4K0xtKqceEcpLv0qOx37T-5MRmRF-~BtLb90VezVJlwfAHEyK9nauSr395z4TpBJfNRbKz1gaKv6r85PSBdMnxA7OpOrmJOGxeNViYdy7Oowy94YNdTNewUsWnaOUKWtoiB6hLcgC8A4IZ4ik61L9mT5HH~pZSlS5-d-Rw__");
+    background-size: cover;
+    height: 100vh;
+}
+.banner-container{
+    width: 378px
+    height: 47px
+    top: 358px
+    left: 200p
+
+}
+.banner-heading{
+    
+    font-size: 45px;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+.small-arrow{
+    font-size: 20px;
+    color: white;
+}
+.banner-description{
+    color: white;
+    font-size: 20px;
+}
+.post-section-heading{
+    width: 47px
+    height: 21px
+    top: 559px
+    left: 313px
+    color: #8A8A8A;
+}
+.post-secion-heading-items{
+    margin: 20px;
+    list-style: none;
+    color: #8A8A8A;
+}
+.items-color{
+    color: #000000;
+
+}
+.post-section-right-heading{
+    align-items: right;
+}
+.write-post-container{
+    width: 133px;
+    height: 36px;
+    top: 552px;
+    left: 966px;
+    border-radius: 4px;
+    background: #EDEEF0;
+    padding-left: 10px;
+    padding-top:3px;
+
+
+
+
+
+}
+.join-button{
+    width: 130px;
+    height: 37px;
+    padding: 5px;
+    margin-left: 10px;
+    border:none;
+    background-color: rgb(53, 53, 232);
+    border-radius: 5px;
+    color: #ffffff;
+
+}
+.leave-button{
+    width: 130px;
+    height: 37px;
+    padding: 5px;
+    margin-left: 10px;
+    border:none;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #959191;
+
+}
+.atricle-content{
+    text-align: left;
+}
+.article-section-image{
+    width: 100%;
+    /* height: 100%; */
+    top: 628px;
+    left: 200px;
+    border-radius: 4px, 4px, 0px, 0px;
+
+}
+.article-content-title{
+    font-family: IBM Plex Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Roboto;
+
+
+
+}
+.article-content-heading{
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    font-weight: 600;
+
+
+}
+.article-content-heading-dots{
+    font-weight: bold;
+    padding-bottom:20px;
+    margin-bottom: 60px;
+}
+.article-content-descriptin{
+    font-family: IBM Plex Sans;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color:#C4C4C4;
+
+
+}
+.aticle-image-name{
+    font-family: IBM Plex Sans;
+font-size: 18px;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color:#000000;
+font-weight: 600;
+}
+
+.custome-dot-button{
+    width: 28px;
+height: 28px;
+top: 1880px;
+left: 867px;
+padding: 5.67px, 0px, 4.67px, 0px;
+/* angle: -90 deg; */
+transform: rotate(90deg); 
+border: none;
+
+}
+
+.atricle-content-location{
+    font-family: IBM Plex Sans;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+.article-content-long-button{
+    width: 100%;
+    border: 1px solid #A9AEB8;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 7px;
+    color: #E56135;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: IBM Plex Sans;
+    
+}
+.long-button-color-2{
+    color: #02B875;
+
+}
+.groups-container-input{
+    border: none;
+    padding-left: 5px;
+    margin-bottom: 14px;
+}
+.horizontal-line {
+    border-bottom: 1px solid black; 
+}
+.show-groups-para{
+    font-size: 10px;
+    color: #868E96;
+    padding: 5px;
+}
+.recommended-groups-heding{
+    color: gray;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.recommended-image{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+.recommended-image-heading{
+    font-family: IBM Plex Sans;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 5px;
+padding-top: 6px;
+color: #000000;
+
+}
+.recommended-image-follow-button{
+    border: 0px solid ;
+    font-family: IBM Plex Sans;
+font-size: 10px;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+width: 60px;
+height: 20px;
+top: 395px;
+left: 1187px;
+padding-bottom: 4px;
+padding-top: 3px;
+border-radius: 10px;
+
+}
+.model-button{
+    border: none;
+    background-color: transparent;
+}
+.span-button{
+    color: blue;
+    font-style: italic;
+}
+.modal-heading{
+    background-color: rgb(187, 244, 220);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+}
+
+/*------------ Login container ------------*/
+
+.box-area{
+    width: 930px;
+}
+
+/*------------ Right box ------------*/
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder{
+    font-size: 16px;
+}
+
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px){
+
+     .box-area{
+        margin: 0 10px;
+
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+
+}
+.modal-content {
+    width: 900px; 
+    
+}
+.modal-sign-in{
+    border: none;
+    color: blue;
+    font-style: italic;
+    background-color: transparent;
+}
+.modal-right-para{
+    font-size: 13px;
+    color: rgb(120, 118, 118);
+}
+.titlemodal{
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 10px;
+    font-size: 15px;
+}
